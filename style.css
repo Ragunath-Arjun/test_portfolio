@@ -147,6 +147,9 @@ p{
     font-size: 20px;
     color:white;
 }
+.abt{
+    margin-top: 3rem;
+}
 
 /* SKILLS CONTAINER*/
 .skills-container{
@@ -284,10 +287,9 @@ h4{
 color: #00bfff;
 text-align: center;
 }
-/* .contact-div{
-    display: flex;
-    justify-content: center;
-} */
+.pc1,.pc2,.pc3,.pc4{
+    margin: 2rem 0rem;
+}
 .Footer{
     background-color:#1c2022;
     margin:0;
