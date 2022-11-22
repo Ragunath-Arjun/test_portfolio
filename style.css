@@ -1,11 +1,11 @@
 *, ::after, ::before {
     box-sizing: border-box;
+    text-decoration: none;
 }
-
-.header{
+.nav-container{
     background-color: #1c2022;
     font-family:'Josefin Sans';
-    position:sticky;
+    position:sticky!important;
     top:0;
     margin:0;
     padding: 0;
@@ -13,37 +13,31 @@
     box-shadow: 0 0 1rem #1cb698;
 }
 .logo{
-    font-size: 28px;
+    font-size: 28px !important;
     color:white;
+    text-align: center;
 }
 .m{
     color:red;
     font-family:'Josefin Sans';
 }
-.header1{
-    text-align: center;
-    margin-top:10px;
-    
-}
-.header2{
+.header{
+    font-family:'Josefin Sans';
     display: flex;
-    justify-content:space-between;
-    margin-top:10px;
-    flex-wrap: wrap;
+    justify-content:center;
+    font-weight: bold;
+}
+.nav-item{
+    margin:0 1.3rem !important;
+}
+.nav-link{
+    letter-spacing: 0.1rem;
+}
+.nav-link:hover{
+    color:#00bfff !important;
+    transform:scale(1.1,1.1);
 }
 
-.header2 a{
-    letter-spacing: 2px;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-}
-.header2 a:hover{
-    color:#ea1538;
-    cursor: pointer;
-    text-decoration: none;
-    transform:scale(1.2,1.1);
-}
 .homepage-container{
     margin:0;
     padding:0;
@@ -116,16 +110,15 @@ i{
     padding:0;
     margin-top: -10px;
     z-index: 1;
-
 }
-
+.about-head{
+    text-align: center;
+}
 .about-head h3{
     font-size:50px;
     color: rgb(66, 215, 235);
-    text-align: center;
     font-weight: bolder;    
     padding:20px;
-    /* margin-bottom: -10px; */
 }
 .about-img{
     height:280px;
@@ -291,24 +284,22 @@ h4{
 color: #00bfff;
 text-align: center;
 }
-.contact-div{
+/* .contact-div{
     display: flex;
     justify-content: center;
-}
+} */
 .Footer{
     background-color:#1c2022;
     margin:0;
     padding:0;
+    height:7rem;
+    display: flex;
+    justify-content:center !important;
+    align-items:center !important;
 }
-.Footer div h3{
+.Footer-text{
     color:white;
-}
-.Footer{
-    height:50px;
-    text-align: center;
-}
-.Footer div h3{
-    font-size: 19px;
+    font-size: 1.2rem;
 }
 .up{
     text-align: center ;
@@ -328,7 +319,6 @@ text-align: center;
 .text-center {
     text-align: center!important;
 }
-
 .col-12 {
     flex: 0 0 auto;
     width: 100%;
